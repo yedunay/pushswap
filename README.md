@@ -12,16 +12,12 @@
 
 3. **Checker Program**: Implement a `checker` program that verifies whether a provided list of instructions correctly sorts the given stack.
 
-4. **Visualizer**: Optional visualizer program for a graphical representation of the sorting process.
-
 ## Project Structure
 
 The project is divided into two main programs:
 
 - **push_swap**: Generates a list of instructions to sort a stack efficiently.
 - **checker**: Validates if the generated instructions correctly sort the stack.
-
-Additionally, a visualizer program is provided for a graphical representation of the sorting process.
 
 ## Compilation
 
@@ -51,12 +47,6 @@ This will generate the `push_swap` and `checker` executables.
 
     Verify that the generated instructions correctly sort the stack.
 
-3. **Visualize Sorting Process:**
-
-    ```bash
-    ./push_swap [list_of_integers] | ./visualizer [list_of_integers]
-    ```
-
 ## Example
 
 ```bash
@@ -70,12 +60,6 @@ Generates a list of instructions to efficiently sort the stack.
 ```
 
 Checks if the generated instructions correctly sort the stack.
-
-```bash
-./push_swap 3 1 4 2 | ./visualizer 3 1 4 2
-```
-
-Visualizes the sorting process.
 
 ## Implementation Details
 
